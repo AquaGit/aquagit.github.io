@@ -1,8 +1,8 @@
 import Header from "./components/Header/Header";
 import GetStarted from "./components/GetStarted/GetStarted";
-import ShopBy from "./components/ShopBy/ShopBy";
-import KeepingFurniture from "./components/KeepingFurniture/KeepingFurniture";
-import Main from "./components/Main/Main";
+// import ShopBy from "./components/ShopBy/ShopBy";
+// import KeepingFurniture from "./components/KeepingFurniture/KeepingFurniture";
+// import Main from "./components/Main/Main";
 // import Items from "./components/Items/Items";
 // import Floyd from "./components/Floyd/Floyd";
 // import Reviews from "./components/Reviews/Reviews";
@@ -15,9 +15,9 @@ const App = () => {
     <>
       <Header />
       <GetStarted />
-      <ShopBy />
+      {/* <ShopBy />
       <KeepingFurniture />
-      <Main />
+      <Main /> */}
       {/* <Items /> */}
       {/* <Floyd />
       <Reviews/>

@@ -1,26 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.18ab1289.css",
-    "main.js": "/static/js/main.d11402ed.js",
-    "static/media/floyd.png": "/static/media/floyd.28ff406d0f5d5cad2997.png",
-    "static/media/never.png": "/static/media/never.30d68252f7d5986172b7.png",
-    "static/media/furniture.jpg": "/static/media/furniture.ce808cd8a6035f671b84.jpg",
+    "main.css": "/static/css/main.96cfefba.css",
+    "main.js": "/static/js/main.9ea44c04.js",
     "static/media/getstarted.png": "/static/media/getstarted.6b2c621664a1a1b33cc0.png",
-    "static/media/garage.png": "/static/media/garage.5be0fb80e293077abba3.png",
-    "static/media/enjoy.jpg": "/static/media/enjoy.8b2ccd741b8fd0e4d20a.jpg",
-    "static/media/LivingRoom.jpg": "/static/media/LivingRoom.ab786932e2e1e07d99e5.jpg",
-    "static/media/HomeOffice.jpg": "/static/media/HomeOffice.7ad6ee583feab137c035.jpg",
-    "static/media/Bedroom.jpg": "/static/media/Bedroom.f10d44bae7b8f01d5c05.jpg",
-    "static/media/DiningRoom.jpg": "/static/media/DiningRoom.cb96cd30274647cb522e.jpg",
-    "static/media/prend.png": "/static/media/prend.cd01a27e8faf036a8418.png",
     "static/media/logo.svg": "/static/media/logo.7af42dce1a639e50a1c182b72250be8d.svg",
     "index.html": "/index.html",
     "static/media/buy.svg": "/static/media/buy.27139a0ba783f37b57d3b2061932456f.svg",
-    "main.18ab1289.css.map": "/static/css/main.18ab1289.css.map",
-    "main.d11402ed.js.map": "/static/js/main.d11402ed.js.map"
+    "main.96cfefba.css.map": "/static/css/main.96cfefba.css.map",
+    "main.9ea44c04.js.map": "/static/js/main.9ea44c04.js.map"
   },
   "entrypoints": [
-    "static/css/main.18ab1289.css",
-    "static/js/main.d11402ed.js"
+    "static/css/main.96cfefba.css",
+    "static/js/main.9ea44c04.js"
   ]
 }

@@ -99,77 +99,80 @@
   }
 }
 
-@media (max-width: 1200px) {
-  .getstarted {
-    background-image: url("../assets/images/getstarted.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+// @media (max-width: 1200px) {
+//   .getstarted {
+//     background-image: url("../assets/images/getstarted.png");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: center center;
 
+//     .getstarted__wrapper {
+//       .started_text {
+//         margin-left: 5%;
+//         margin-right: 5%;
+//         // z-index: 12;
 
-    .getstarted__wrapper {
-      .started_text {
-        margin-left: 5%;
-        margin-right: 5%;
-        // z-index: 12;
+//         h1,
+//         p {
+//           text-align: center;
+//           margin-right: 0;
+//           margin-left: 0;
+//           text-shadow: 0 2px 2px rgb(255, 255, 255);
 
-        
-        h1,
-        p {
-          text-align: center;
-          margin-right: 0;
-          margin-left: 0;
-          text-shadow: 0 2px 2px rgb(255, 255, 255);
+//         }
+//         .started_btn {
+//           text-align: center;
+//         }
+//       }
 
-        }
-        .started_btn {
-          text-align: center;
-        }
-      }
+//       .started_img {
+//         display: none;
+//       }
+//     }
+//   }
+// }
 
-      .started_img {
-        display: none;
-      }
-    }
-  }
-}
-
-@media (max-width: 1000px) {
-  .getstarted {
-    .getstarted__wrapper {
-      .started_text {
-        margin-left: 5%;
-        margin-right: 5%;
-        h1,
-        p {
-          text-align: center;
-          margin-right: 0;
-          margin-left: 0;
-        }
-      }
-    }
-  }
-}
+// @media (max-width: 1000px) {
+//   .getstarted {
+//     .getstarted__wrapper {
+//       .started_text {
+//         margin-left: 5%;
+//         margin-right: 5%;
+//         h1,
+//         p {
+//           text-align: center;
+//           margin-right: 0;
+//           margin-left: 0;
+//         }
+//       }
+//     }
+//   }
+// }
 
 @media (max-width: 400px) {
   .getstarted {
+        background-image: url("../assets/images/getstarted.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: left center;
     .getstarted__wrapper {
-      .started_img {
-      }
       .started_text {
-        padding-top: 120px;
+        margin-left: 0;
+        padding-top: 40px;
+        text-align: center;
+        margin: 0 10px;
 
-        h1 {
-          font-size: 32px;
-          font-weight: 600;
+        p {
+          margin-right: 0;
+          padding-bottom: 50px;
         }
 
         .started_btn {
-          cursor: pointer;
-          a {
-            font-weight: 600;
-          }
+          padding: 0 0;
         }
+      }
+      .started_img {
+        display: none;
       }
     }
   }

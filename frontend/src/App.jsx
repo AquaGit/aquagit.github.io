@@ -1,5 +1,5 @@
 import Header from "./components/Header/Header";
-import GetStarted from "./components/GetStarted/GetStarted";
+// import GetStarted from "./components/GetStarted/GetStarted";
 // import ShopBy from "./components/ShopBy/ShopBy";
 // import KeepingFurniture from "./components/KeepingFurniture/KeepingFurniture";
 // import Main from "./components/Main/Main";
@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <GetStarted />
+      {/* <GetStarted /> */}
       {/* <ShopBy />
       <KeepingFurniture />
       <Main /> */}

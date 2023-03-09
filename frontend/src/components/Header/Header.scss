@@ -124,6 +124,10 @@
           animation-timing-function: ease-out;
           animation-fill-mode: forwards;
 
+          a {
+            z-index: 2;
+          }
+
           @keyframes slideIn {
             0% {
               transform: translateX(-100%);
@@ -163,18 +167,18 @@
 
       &.closed {
         .menu-add {
-          position: fixed;
-          top: 0;
-          left: 0;
-          bottom: 10%;
-          height: 100%;
-          width: 100%;
-          background-color: rgba(255, 255, 255, 0.97);
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          font-size: 20px;
+          // position: fixed;
+          // top: 0;
+          // left: 0;
+          // bottom: 10%;
+          // height: 100%;
+          // width: 100%;
+          // background-color: rgba(255, 255, 255, 0.97);
+          // display: flex;
+          // flex-direction: column;
+          // justify-content: center;
+          // align-items: center;
+          // font-size: 20px;
           z-index: 0;
 
           animation: destroy 0.3s ease-out;
@@ -202,6 +206,26 @@
           // margin-left: 0;
           // margin-right: 0;
           margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    .menu {
+      &.open {
+        .menu-add {
+          font-size: 28px;
+          a {
+            padding-bottom: 25px;
+            padding-top: 25px;
+          }
+
+          .menu-link {
+            margin-top: 0;
+          }
         }
       }
     }

@@ -1,0 +1,80 @@
+.footer {
+  background-color: #f3f0ec;
+
+
+  .footer_sides {
+    .footer-block {
+      display: flex;
+      padding-top: 82px;
+      text-align: left;
+
+    //   .footer-logo {
+    //     position: relative;
+    //     display: none;
+    //     img {
+    //       position: absolute;
+    //       left: 20%;
+    //       right: 20%;
+    //     }
+    //   }
+
+      .footer-left {
+        display: flex;
+        align-items: flex-start;
+        padding-left: 80px;
+        padding-bottom: 200px;
+
+        .f-furniture,
+        .f-about,
+        .f-help {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-right: 87px;
+
+          h1 {
+            font-size: 16px;
+            line-height: 24px;
+            padding-bottom: 24px;
+          }
+
+          a {
+            padding-bottom: 8px;
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+      .footer-right {
+        .feather {
+          h1 {
+            font-size: 16px;
+            line-height: 24px;
+            padding-bottom: 24px;
+            letter-spacing: 1.28px;
+          }
+
+          img {
+            margin-right: 16px;
+            margin-bottom: 54px;
+          }
+        }
+        .join {
+          position: relative;
+          h1 {
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 1.28px;
+            padding-bottom: 60px;
+          }
+
+          span {
+            position: absolute;
+            width: 300px;
+            border: 1px solid black;
+          }
+        }
+      }
+    }
+  }
+}

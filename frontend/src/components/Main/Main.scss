@@ -1,0 +1,44 @@
+.main {
+    padding-bottom: 223px;
+    h1 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 44px;
+    }
+
+    h3 {
+        padding-top: 20px;
+        padding-bottom: 33px;
+        font-weight: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    h4 {
+        padding-bottom: 33px;
+    }
+
+    a {
+        color: #E9672B;
+    }
+
+    .block, .block2, .block3, .block4 {
+        display: flex;
+        align-items: center;
+        .block_text {
+            padding: 0 85px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .main {
+        .block_list {
+            .block, .block2, .block3, .block4 {
+                img {
+                    width: 40%;
+                }
+            }
+        }
+    }
+}

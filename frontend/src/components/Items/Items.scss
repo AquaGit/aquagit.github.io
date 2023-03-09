@@ -1,0 +1,27 @@
+.itemsblock {
+    padding-top: 112px;
+    background-color: #fbf8f5;
+
+    h1 {
+        font-size: 36px;
+        line-height: 44px;
+        padding-bottom: 57px;
+        text-align: center;
+    }
+    
+    .itemsblock_list {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        .blockitem {
+            background-color: #ffffff;
+            margin: 0 2px;
+            padding: 0;
+
+            .blocktext {
+                margin: 30px;
+            }
+        }
+    }
+}

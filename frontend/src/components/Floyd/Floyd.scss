@@ -1,0 +1,29 @@
+.floyd {
+    display: flex;
+    align-items: center;
+
+    .floyd_text {
+        padding: 55px 44px;
+        background-color: #E9672B;
+        text-align: center;
+
+        h1 {
+            font-size: 36px;
+            line-height: 44px;
+            color: white;
+
+            padding-top: 24px;
+            padding-bottom: 48px;
+        }
+
+        .floyd_btn {
+            padding: 16px 0;
+            margin: 0 70px;
+            background-color: white;
+            border-radius: 88px;
+
+            font-size: 18px;
+        }
+
+    }
+}

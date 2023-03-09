@@ -1,0 +1,40 @@
+.keepingfurniture {
+    padding: 131px 223px 94px;
+
+    
+    h1 {
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    h3 {
+        padding-top: 26px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .keepingfurniture {
+        padding: 80px 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    .keepingfurniture {
+        padding: 80px 20px;
+
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+    }
+}

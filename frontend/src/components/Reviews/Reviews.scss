@@ -1,0 +1,81 @@
+.rewievs {
+  padding-top: 140px;
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 60px;
+  }
+  .rewievs_block {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 200px;
+
+    .rewievs_item:nth-child(1) {
+      box-sizing: border-box;
+      width: 396px;
+      height: 254px;
+
+      background: #ffffff;
+      border: 2px solid #e9672b;
+      box-shadow: 8px -8px 0px #cbc6f4;
+      border-radius: 4px;
+
+      padding: 34px 35px;
+
+      .star {
+        padding-bottom: 25px;
+      }
+    }
+
+    .rewievs_item:nth-child(2) {
+      box-sizing: border-box;
+      width: 396px;
+      height: 254px;
+
+      background: #ffffff;
+      border: 2px solid #225dca;
+      box-shadow: 8px -8px 0px #e7cb43;
+      border-radius: 4px;
+
+      padding: 34px 35px;
+
+      .star {
+        padding-bottom: 25px;
+        img {
+          filter: hue-rotate(200deg) saturate(100%);
+        }
+      }
+    }
+
+    .rewievs_item:nth-child(3) {
+      box-sizing: border-box;
+      width: 396px;
+      height: 254px;
+
+      background: #ffffff;
+      border: 2px solid #242947;
+      box-shadow: 8px -8px 0px #a2d4c5;
+      border-radius: 4px;
+
+      padding: 34px 35px;
+
+      .star {
+        padding-bottom: 25px;
+        img {
+          filter: hue-rotate(60deg) saturate(100%);
+        }
+      }
+    }
+
+    h3 {
+      font-size: 18px;
+      line-height: 28px;
+      padding-bottom: 30px;
+    }
+
+    h4 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
